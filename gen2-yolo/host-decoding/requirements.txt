@@ -4,3 +4,4 @@ torch>=1.7.0
 torchvision>=0.8.1
 numpy>=1.18.5
 gdown>=4.4
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
