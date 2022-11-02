@@ -3,3 +3,4 @@ depthai==2.15.0.0
 numpy
 open3d==0.10.0.0; platform_machine != "armv7l" and python_version < "3.9"
 torch
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
