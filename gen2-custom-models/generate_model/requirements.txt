@@ -4,3 +4,4 @@ torch
 kornia
 onnx
 depthai==2.15.2.0
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
