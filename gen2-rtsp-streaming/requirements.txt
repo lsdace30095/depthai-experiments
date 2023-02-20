@@ -1,3 +1,4 @@
 PyGObject==3.38.0
 opencv-python==4.5.1.48
 depthai==2.15.2.0
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
